@@ -8,7 +8,7 @@
 # Site settings
 title-bold: Forty
 title-normal: by HTML5 UP
-email: youremailaddress@gmail.com
+email: rowen@oberlin.edu
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://stravinskian.github.io" # the base hostname & protocol for your site
