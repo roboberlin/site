@@ -13,12 +13,12 @@ description: A responsive site template designed by HTML5 Up<br /> and released 
 baseurl: "/site" # the subpath of your site, e.g. /blog
 url: "https://stravinskian.github.io" # the base hostname & protocol for your site
 author: 
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+street_address: 110 N. Professor St
+city: Oberlin
+state: OH
+zip_code: 44074
 country: United States of America
-phone: (716) 555-5555
+phone: (440) 775-8566
 
 # Plugins
 gems:
@@ -28,27 +28,27 @@ gems:
   - jemoji
 
 # Homepage tiles
-tiles-source: posts # accepts "posts" or "pages" 
+tiles-source: pages # accepts "posts" or "pages" 
 tiles-count: 6
 
 # Social settings
 500px_url: 
 facebook_url: 
-github_url: 
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+github_url: https://github.com/stravinskian
+gitlab_url: 
+googleplus_url: 
+instagram_url: 
+linkedin_url: https://www.linkedin.com/in/rob-owen-36525b74
 pinterest_url: 
 slack_url: 
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: 
 
 # Build settings
 markdown: kramdown
 
 # Plugin: jekyll-seo-tag
 twitter:
-  username: andrewbanchich
+  username: 
 # Add one or more of the following
 facebook:
   app_id: 
