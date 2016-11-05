@@ -4,7 +4,7 @@ title: Home
 landing-title: Dynamics of Nothing
 description: 
 image: 
-author: 
+author: Rob Owen
 nav-menu: 
 ---
 
