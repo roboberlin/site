@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Elements
+nav-menu: no
 ---
 
 <!-- Main -->

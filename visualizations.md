@@ -3,7 +3,7 @@ layout: landing
 title: Visualizations
 description: Interactive visualizations, generally designed for lecture demonstrations.
 image: assets/images/ShuffleGliss.png
-nav-menu: no
+nav-menu: "yes"
 ---
 
 <!-- Banner -->

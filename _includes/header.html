@@ -18,13 +18,17 @@
 	    	{% endif %}
 		{% endfor %}
 		{% for page in site.pages %}
-		    {% if page.layout != "home" %}
+		    {% if page.layout != "home"%}
+		    {% if page.nav-menu == "yes" %}
 		        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+		    {% endif %}
 		    {% endif %}
 		{% endfor %}
 	</ul>
+<!--
 	<ul class="actions vertical">
 		<li><a href="#" class="button special fit">Get Started</a></li>
 		<li><a href="#" class="button fit">Log In</a></li>
 	</ul>
+-->
 </nav>

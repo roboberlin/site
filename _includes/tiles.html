@@ -24,9 +24,10 @@
                 </header>
         </article>
 	{% endif %}
-	{% endfor %}	{% for page in site.pages limit:site.tiles-count %}
+	{% endfor %}
+	{% for page in site.pages limit:site.tiles-count %}
 	{% if site.tiles-source == 'mypages' %}
-	{% if page.title == 'Visualizations' or page.title == 'Research' %}
+	{% if page.title == 'Visualizations' or page.title == 'Research' or page.title == 'About Me' %}
         <article>
                 <span class="image">
                         <img src="{{ page.image }}" alt="" />
