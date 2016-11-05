@@ -1,5 +1,5 @@
 ---
-layout: visualizations
+layout: landing
 title: Visualizations
 description: Interactive visualizations, generally designed for lecture demonstrations.
 image: assets/images/ShuffleGliss.png
