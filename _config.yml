@@ -9,7 +9,7 @@
 title-bold: Dynamics of Nothing
 title-normal: scientific visualizations and research descriptions by Rob Owen
 email: rowen@oberlin.edu
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: scientific visualizations and research descriptions by Rob Owen
 baseurl: "/site" # the subpath of your site, e.g. /blog
 url: "https://stravinskian.github.io" # the base hostname & protocol for your site
 author: 
