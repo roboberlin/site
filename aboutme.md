@@ -1,8 +1,8 @@
 ---
 layout: post
 title: About Me
-description: Lorem ipsum dolor est
-image: 
+description: 
+image: assets/images/InFrontOfHarmonicSeries_B.jpg
 nav-menu: "yes"
 ---
 
