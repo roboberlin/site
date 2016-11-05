@@ -2,7 +2,7 @@
 layout: visualizations
 title: Visualizations
 description: Interactive visualizations, generally designed for lecture demonstrations.
-image: assets/images/shufflegliss.png
+image: assets/images/ShuffleGliss.png
 nav-menu: yes
 ---
 
@@ -14,7 +14,7 @@ nav-menu: yes
 			<img src="{{ site.baseurl }}/{{ page.image }}" alt="" />
 		</span>
 		<header class="major">
-			<h1>Landing</h1>
+			<h1>Visualizations</h1>
 		</header>
 		<div class="content">
 			<p>{{ page.description }}</p>
