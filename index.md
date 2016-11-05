@@ -29,7 +29,7 @@ nav-menu:
 <!-- One -->
 {% include tiles.html %}
 
-<!-- Two -->
+<!-- Two
 <section id="two">
 	<div class="inner">
 		<header class="major">
@@ -41,6 +41,8 @@ nav-menu:
 		</ul>
 	</div>
 </section>
+-->
+
 
 </div>
 

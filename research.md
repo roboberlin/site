@@ -1,8 +1,8 @@
 ---
 layout: landing
-title: Visualizations
-description: Interactive visualizations, generally designed for lecture demonstrations.
-image: assets/images/ShuffleGliss.png
+title: Research
+description: Description of a few of my past and present research topics. Under construction.
+image: 
 nav-menu: no
 ---
 
@@ -14,7 +14,7 @@ nav-menu: no
 			<img src="{{ site.baseurl }}/{{ page.image }}" alt="" />
 		</span>
 		<header class="major">
-			<h1>{{ page.title }}</h1>
+			<h1>{{page.title}}</h1>
 		</header>
 		<div class="content">
 			<p>{{ page.description }}</p>

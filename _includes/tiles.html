@@ -24,5 +24,31 @@
                 </header>
         </article>
 	{% endif %}
+	{% endfor %}	{% for page in site.pages limit:site.tiles-count %}
+	{% if site.tiles-source == 'mypages' %}
+	{% if page.title == 'Visualizations' or page.title == 'Research' %}
+        <article>
+                <span class="image">
+                        <img src="{{ page.image }}" alt="" />
+                </span>
+                <header class="major">
+                        <h3><a href="{{ site.baseurl }}{{ page.url }}" class="link">{{ page.title }}</a></h3>
+                        <p>{{ page.description }}</p>
+                </header>
+        </article>
+	{% endif %}
+	{% endif %}
 	{% endfor %}
+	{% if site.tiles-source == 'nonlooppages' %}
+        <article>
+                <span class="image">
+                        <img src="assets/images/ShuffleGliss.png" alt="" />
+                </span>
+                <header class="major">
+                        <h3><a href="{{ site.baseurl }}/visualizations.html" class="link">visualizations</a></h3>
+                        <p>the description</p>
+                </header>
+        </article>
+	{% endif %}
+
 </section>
