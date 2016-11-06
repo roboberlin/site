@@ -57,7 +57,7 @@ Often, abstract ideas can be more easily understood when translated into visual 
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
+		<a href="transharmonics.html" class="image">
 			<img src="assets/images/ShuffleGliss.png" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -67,7 +67,7 @@ Often, abstract ideas can be more easily understood when translated into visual 
 				</header>
 				<p>Spectrographic exploration of harmonicity (a tool that our brains use to associate pitches to complex waveforms) being slowly broken and restored.</p>
 				<ul class="actions">
-					<li><a href="transharmonic.html" class="button">visit</a></li>
+					<li><a href="transharmonics.html" class="button">visit</a></li>
 				</ul>
 			</div>
 		</div>
