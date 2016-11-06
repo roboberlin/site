@@ -3,7 +3,7 @@ layout: post
 title: Just intonation
 description: An audio-visual representation of the interval of a perfect fifth, tunable between standard *even temperament* and *just intonation*.
 image: 
-nav-menu: "yes"
+nav-menu: no
 ---
 
 <head>
