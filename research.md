@@ -29,9 +29,10 @@ nav-menu: "yes"
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>Research</h2>
 		</header>
-		<p>Stuff, and Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p>This section will eventually contain intuitive descriptions of some of my research projects. As you can tell from the Lorem Ipsum below, none of these sections have been written yet.
+</p>
 	</div>
 </section>
 
