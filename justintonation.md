@@ -157,9 +157,9 @@ function endAudio(){
 
 The above applet demonstrates intonation of the musical interval of the *perfect fifth* (*A*<sub>3</sub> to *E*<sub>4</sub> in the default setup).
 
-The sliders at the bottom allow you to adjust the timbre of the "organ" tone, produced here by Fourier synthesis. The sliders at the top allow for adjustment of the pitches being played. The number shown is the frequency of the bottom pitch. The top pitch is 3/2 that value in just intonation. The next two sliders allow for adjustment of the relative strengths of the two tones. Finally, the fourth slider down allows continuous adjustment between just intonation (usually the preferred intonation of serious musicians) and even temperament (the compromise tuning system that subdivides the octave into twelve equally-spaced pitch intervals. 
+The sliders at the bottom allow you to adjust the timbre of the "organ" tone, produced here by Fourier synthesis. The sliders at the top allow for adjustment of the pitches being played. The first slider adjusts the frequency of the lower pitch. The top pitch is 3/2 that value in just intonation. The next two sliders allow for adjustment of the relative strengths of the two tones. Set one of these amplitudes to zero to see how adjusting the harmonics affects the shape of the waveform. Finally, the fourth slider allows continuous adjustment between just intonation (usually the preferred intonation of serious musicians) and even temperament (the compromise tuning system that subdivides the octave into twelve equally-spaced pitch intervals). 
 
-The shown waveform is timed to the lower-pitched of the two tones, roughly as it would be on an oscilloscope timed to that lower tone. In just intonation, this timing is also correct for the higher pitch, so the combination is stable.
+The waveform is timed to the lower-pitched of the two tones, roughly as it would be on an oscilloscope (the marker draws the waveform from left to right and repeats itself in such a way as to produce a smooth curve). In just intonation, this timing is also correct for the higher pitch, so the combination is stable.
 
 If the intonation is *offset* from just, then the two oscillations shift relative to one another. Watch the waveform carefully and compare the shape of the waveform with the unsteady timbre that you hear. 
 
