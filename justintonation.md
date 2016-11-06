@@ -7,8 +7,9 @@ nav-menu: "yes"
 ---
 
 <head>
- <link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
- <script type="text/javascript" src="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
+ <!--<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />-->
+ <link rel="stylesheet" type="text/css" href="assets/css/jsxgraph.css" />
+ <script type="text/javascript" src="assets/js/jsxgraphcore.js"></script>
  <script type="text/javascript" src="http://www.charlie-roberts.com/gibberish/build/gibberish.js"></script>
 </head>
 
