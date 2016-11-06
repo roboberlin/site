@@ -6,4 +6,8 @@ image: assets/images/InFrontOfHarmonicSeries_B.jpg
 nav-menu: "yes"
 ---
 
-Under construction.
+I'm an assistant professor in the department of Physics and Astronomy at Oberlin College. Before that I was a postdoctoral Research Associate in computational relativity at [Cornell](http://astro.cornell.edu). Before that I completed my PhD work in the [Theoretical Astrophysics](http://www.tapir.caltech.edu) group at [Caltech](http://www.caltech.edu). Before that, I completed my undergraduate studies at the [University of Utah](http://physics.utah.edu). Before that, is less interesting. 
+
+My central research focus is *vacuum General Relativity*, that is, the dynamics of empty space. Since grad school, I've been a member of the [Simulating Extreme Spacetimes](http://black-holes.org) collaboration, which develops and uses a numerical relativity code, [SpEC](http://www.black-holes.org/SpEC.html), to simulate collisions of black holes, and calculate the gravitational waves that they produce.
+
+For a more formal introduction, see my [CV](assets/pdf/cv.pdf).
