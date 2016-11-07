@@ -39,17 +39,17 @@ nav-menu: "yes"
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
-			<img src="assets/images/pic08.jpg" alt="" data-position="center center" />
+		<a href="research/finalstate.html" class="image">
+			<img src="assets/images/QuadrupoleDegeneracies_noaxes.png" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Orci maecenas</h3>
+					<h3>The final state of a black hole merger</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>With numerical relativity it can now be shown conclusively that even the violent collisions of black holes eventually relax to a well-known quiescent state. Here is some work that I've done to help show that.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="research/finalstate.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
