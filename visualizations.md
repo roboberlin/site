@@ -67,7 +67,7 @@ Often, abstract ideas can be more easily understood when translated into visual 
 				</header>
 				<p>Spectrographic exploration of harmonicity (a tool that our brains use to associate pitches to complex waveforms) being slowly broken and restored.</p>
 				<ul class="actions">
-					<li><a href="visualizations/transharmonic.html" class="button">visit</a></li>
+					<li><a href="visualizations/transharmonics.html" class="button">visit</a></li>
 				</ul>
 			</div>
 		</div>
