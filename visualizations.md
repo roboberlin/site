@@ -46,7 +46,7 @@ Often, abstract ideas can be more easily understood when translated into visual 
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Just temperament</h3>
+					<h3>Just intonation</h3>
 				</header>
 				<p>An audio-visual demonstration of <i>just intonation</i> of the musical interval of a perfect fifth, and the imperfect approximation allowed by the twelve-tone equal-tempered scale. I expect to update this visualization soon to add fourths, thirds, and sixths.
 </p>
@@ -57,7 +57,7 @@ Often, abstract ideas can be more easily understood when translated into visual 
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
+		<a href="transharmonics.html" class="image">
 			<img src="assets/images/ShuffleGliss.png" alt="" data-position="top center" />
 		</a>
 		<div class="content">
