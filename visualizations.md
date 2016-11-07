@@ -40,7 +40,7 @@ Often, abstract ideas can be more easily understood when translated into visual 
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="justintonation.html" class="image">
+		<a href="visualizations/justintonation.html" class="image">
 			<img src="assets/images/Waveform.png" alt="" data-position="center center" />
 		</a>
 		<div class="content">
@@ -51,13 +51,13 @@ Often, abstract ideas can be more easily understood when translated into visual 
 				<p>An audio-visual demonstration of <i>just intonation</i> of the musical interval of a perfect fifth, and the imperfect approximation allowed by the twelve-tone equal-tempered scale. I expect to update this visualization soon to add fourths, thirds, and sixths.
 </p>
 				<ul class="actions">
-					<li><a href="justintonation.html" class="button">visit</a></li>
+					<li><a href="visualizations/justintonation.html" class="button">visit</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="transharmonics.html" class="image">
+		<a href="visualizations/transharmonics.html" class="image">
 			<img src="assets/images/ShuffleGliss.png" alt="" data-position="top center" />
 		</a>
 		<div class="content">
