@@ -72,6 +72,22 @@ Often, abstract ideas can be more easily understood when translated into visual 
 			</div>
 		</div>
 	</section>
+	<section>
+		<a href="visualizations/formants.html" class="image">
+		   	<img src="assets/images/formantSpectrum.png" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Formants</h3>
+				</header>
+				<p>Fourier synthesis of a sawtooth wave, modulated by <it>formant resonances</it> such as those in the vocal cavity that give rise to the perception of vowel sounds.</p>
+				<ul class="actions">
+					<li><a href="visualizations/formants.html" class="button">visit</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 
 
 
