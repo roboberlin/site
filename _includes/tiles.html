@@ -27,13 +27,24 @@
 	{% endfor %}
 	{% for page in site.pages limit:site.tiles-count %}
 	{% if site.tiles-source == 'mypages' %}
-	{% if page.title == 'Visualizations' or page.title == 'Research' or page.title == 'About Me' %}
+	{% if page.title == 'Visualizations' or page.title == 'About Me' %}
         <article>
                 <span class="image">
                         <img src="{{ page.image }}" alt="" />
                 </span>
                 <header class="major">
                         <h3><a href="{{ site.baseurl }}{{ page.url }}" class="link">{{ page.title }}</a></h3>
+                        <p>{{ page.description }}</p>
+                </header>
+        </article>
+	{% endif %}
+	{% if page.title == 'Research' %}
+        <article>
+                <span class="image">
+                        <img src="{{ page.image }}" alt="" />
+                </span>
+                <header class="major">
+                        <h3><!--a href="{{ site.baseurl }}{{ page.url }}" class="link"-->{{ page.title }}<!--/a--></h3>
                         <p>{{ page.description }}</p>
                 </header>
         </article>

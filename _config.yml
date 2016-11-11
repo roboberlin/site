@@ -7,9 +7,9 @@
 
 # Site settings
 title-bold: Dynamics of Nothing
-title-normal: scientific visualizations and research descriptions by Rob Owen
+title-normal:
 email: rowen@oberlin.edu
-description: scientific visualizations and research descriptions by Rob Owen
+description: black hole research and scientific visualization by Rob Owen
 baseurl: "/site" # the subpath of your site, e.g. /blog
 url: "https://stravinskian.github.io" # the base hostname & protocol for your site
 author: 
