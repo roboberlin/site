@@ -76,14 +76,14 @@ var partial4slide = board.create('slider', [[.3*Span, -8], [.3*Span, -4], [0., 0
 var partial5slide = board.create('slider', [[.35*Span, -8], [.35*Span, -4], [0., 0.25, .8]]);
 var partial6slide = board.create('slider', [[.4*Span, -8], [.4*Span, -4], [0., 0.15, .8]]);
 
-var f1label = board.create('text', [.05*Span, 8.3, "Frequency of lower tone:"]);
-var a1label = board.create('text', [.05*Span, 7.3, "Amplitude of lower tone:"]);
-var a2label = board.create('text', [.05*Span, 6.3, "Amplitude of higher tone:"]);
-var intonationlabel = board.create('text', [.45*Span, 4.8, "Intonation:"]);
-var eventemplabel = board.create('text', [.05*Span, 4.5, "Even-tempered"]);
-var justlabel = board.create('text', [.82*Span, 4.5, "Just"]);
+var f1label = board.create('text', [.05*Span, 8.3, "Frequency of lower tone:"], {fixed:true});
+var a1label = board.create('text', [.05*Span, 7.3, "Amplitude of lower tone:"], {fixed:true});
+var a2label = board.create('text', [.05*Span, 6.3, "Amplitude of higher tone:"], {fixed:true});
+var intonationlabel = board.create('text', [.45*Span, 4.8, "Intonation:"], {fixed:true});
+var eventemplabel = board.create('text', [.05*Span, 4.5, "Even-tempered"], {fixed:true});
+var justlabel = board.create('text', [.82*Span, 4.5, "Just"], {fixed:true});
 
-var relamplabel = board.create('text', [.05*Span, -8.5, "Relative amplitudes of harmonics 1-6 in both tones."]);
+var relamplabel = board.create('text', [.05*Span, -8.5, "Relative amplitudes of harmonics 1-6 in both tones."], {fixed:true});
 
 var p0 = board.create('point', [0,0], {face:'',name:'',trace:false});
 
