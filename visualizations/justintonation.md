@@ -163,6 +163,7 @@ The waveform is timed to the lower-pitched of the two tones, roughly as it would
 
 If the intonation is *offset* from just, then the two oscillations shift relative to one another. Watch the waveform carefully and compare the shape of the waveform with the unsteady timbre that you hear. 
 
+In the interval of a fifth, the uneven timbre associated with poor intonation is caused by slow beating of the third harmonic of the lower tone with the (slightly detuned) second harmonic of the higher tone; and also of the sixth harmonic of the lower tone with the (slightly detuned) fourth harmonic of the higher tone. (There are higher harmonics that beat as well, but the tones we're playing with here have only six harmonics.) If you adjust the bottom sliders to completely turn off either the second or third harmonic, then you will remove the slower beating. If you also turn off either the fourth or sixth harmonic, then you'll remove the faster beating. Doing both of these will make it so that the timbre still sounds clean even if the interval is detuned (as in even temperament). Even in this case, the waveforms of the two pitches still "shift" relative to one another, but the effects of this shifting aren't obvious to the ear as they are in the case of the slow beating. 
 
 ------------------------
 
