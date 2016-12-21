@@ -88,6 +88,22 @@ Often, abstract ideas can be more easily understood when translated into visual 
 			</div>
 		</div>
 	</section>
+	<section>
+		<a href="visualizations/swingingrope.html" class="image">
+			<img src="assets/images/stringmode.png" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Resonances of an ideal rope</h3>
+				</header>
+				<p>An ideal rope is fixed at one end, and swung at the other, at an adjustable frequency. The resulting <it>standing waves</it> have maximum amplitude for certain resonant frequencies and weaker amplitude for others.</p>
+				<ul class="actions">
+					<li><a href="visualizations/swingingrope.html" class="button">visit</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 
 
 
