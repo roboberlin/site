@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Home
+title: Dynamics of Nothing
 landing-title: Dynamics of Nothing
 description: 
-image: 
+image: assets/images/DataDefConv000061.png
 author: Rob Owen
 nav-menu: 
 ---
