@@ -39,17 +39,17 @@ nav-menu: "yes"
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="research/finalstate.html" class="image">
-			<img src="assets/images/QuadrupoleDegeneracies_noaxes.png" alt="" data-position="center center" />
+		<a href="research/fieldequations.html" class="image">
+			<img src="assets/images/ConstraintDamping_str.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>The final state of a black hole merger</h3>
+					<h3>Representing the field equations</h3>
 				</header>
-				<p>With numerical relativity it can now be shown conclusively that even the violent collisions of black holes eventually relax to a well-known quiescent state. Here is some work that I've done to help show that.</p>
+				<p>Before a numerical relativity simulation can begin, we need to turn the physical field equations into a well-posed differential equations problem for the computer. I was lucky enough to play a role in this process in the early development of the SpEC code.</p>
 				<ul class="actions">
-					<li><a href="research/finalstate.html" class="button">Learn more</a></li>
+					<li><a href="research/fieldequations.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
