@@ -3,7 +3,7 @@ layout: landing
 title: Research
 description: Description of a few of my past and present research topics. Under construction.
 image: 
-nav-menu: "yes"
+nav-menu: "no"
 ---
 
 <!-- Banner -->
