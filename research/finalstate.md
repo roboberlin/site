@@ -2,7 +2,7 @@
 layout: post
 title: The final state of a black hole merger
 description: The final state of a binary black hole merger.
-image: assets/images/QuadrupoleDegeneracies_noaxes.png
+image: assets/images/FprintOnCelSphere.png
 nav-menu: no
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: The Spin of Black Holes in Numerical Simulations
 description: Defining angular momentum from approximate symmetries
-image: assets/images/QuadrupoleDegeneracies_noaxes.png
+image: assets/images/BnnWireframe.png
 nav-menu: no
 ---
 
