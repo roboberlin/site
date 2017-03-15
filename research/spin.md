@@ -40,7 +40,7 @@ S = \oint z \hspace{1mm} {\rm curl} (\vec \omega) \cdot d\vec A,
 \end{align}
 where $$z$$ satisfies a generalized eigenproblem on the horizon:
 \begin{align}
-{\rm div} \left( R {\rm grad}(z) \right) = \lambda \nabla^2 z.
+\nabla^4 z + {\rm div} \left( R {\rm grad}(z) \right) = \lambda \nabla^2 z.
 \end{align}
 The eigenvalue $$\lambda$$ arises as a lagrange multiplier, and measures the "intrinsic non-symmetry" of the horizon. 
 
