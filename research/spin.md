@@ -36,7 +36,7 @@ The problem is, in a generic problem, there *won't be any such symmetry.* Rememb
 
 This is where I first got involved in the problem. The approach that other groups were taking involved what I took to be a very reasonable approach: find an "approximate" rotation symmetry. However the precise algorithm that was normally used involved some interesting geometrical tricks that could be related to symmetries if true symmetries exist, but it's not clear what these tricks would lead to in real-world problems without exact symmetries. I decided to take the language of "approximate symmetries" seriously and set up an optimization problem, finding the vector field $\vec \phi$ that "distorts spacetime least" as you push coordinates along it. My initial ideas on this subject went into the last chapter of my [thesis](http://thesis.library.caltech.edu/2073/), and were described in more complete form in a later [paper](http://journals.aps.org/prd/abstract/10.1103/PhysRevD.78.084017). To make a long story short, the vector field $\vec \phi$ is best expressed in terms of a potential $z$, and the formula for quasilocal spin angular momentum becomes:
 \begin{align}
-S = \oint z {\rm curl} \vec \omega \cdot d\vec A,
+S = \oint z \hspace{1mm} {\rm curl} (\vec \omega) \cdot d\vec A,
 \end{align}
 where $z$ satisfies a generalized eigenproblem on the horizon:
 \begin{align}
