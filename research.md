@@ -77,11 +77,11 @@ nav-menu: "no"
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Sed nunc ligula</h3>
+					<h3>Ringdown to the final state.</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>It was long presumed that when two black holes collide, the merger remnant must settle down to a stationary black hole. Checking this required numerical relativity and some clever engineering.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="research/finalstate.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
