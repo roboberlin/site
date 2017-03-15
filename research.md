@@ -47,7 +47,7 @@ nav-menu: "no"
 				<header class="major">
 					<h3>Representing the field equations</h3>
 				</header>
-				<p>Before a numerical relativity simulation can begin, we need to turn the physical field equations into a well-posed differential equations problem for the computer. I was lucky enough to play a role in this process in the early development of the SpEC code.</p>
+				<p>Before a numerical relativity simulation can begin, we need to turn the physical field equations into a well-posed differential equations problem for the computer.</p>
 				<ul class="actions">
 					<li><a href="research/fieldequations.html" class="button">Learn more</a></li>
 				</ul>
@@ -61,11 +61,11 @@ nav-menu: "no"
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Rhoncus magna</h3>
+					<h3>Black Hole Spin</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>Characterizing a black-hole collision requires us to define what we mean by the angular momentum of warped space.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="research/spin.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>

@@ -1,0 +1,47 @@
+---
+layout: post
+title: The Spin of Black Holes in Numerical Simulations
+description: Defining angular momentum from approximate symmetries
+image: assets/images/QuadrupoleDegeneracies_noaxes.png
+nav-menu: no
+---
+
+<head>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+
+Black holes are real things. Anyone who knows a bit of astronomy (a category that just barely includes me) can point in the direction of a few of their favorites on a starry night. Black holes have *properties*: mass, spin, possibly electric charge, higher-order spatial structure such as tides. There's a deep theorem in general relativity that for a stationary black hole, the first three of these quantities (mass, spin, charge) are the only independent quantities that can exist. Once one knows these three quantities, *every* other characteristic of the spacetime can be inferred from them. 
+
+The situation is much richer, though, in real-world astrophysics and in numerical relativity, where the holes are *not* isolated and *not* stationary. A water drop sitting isolated in interstellar space is perfectly spherical (unless it's spinning, in which case it becomes oblate, just like a black hole). But as a water drop disconnects from a dripping faucet it's more "teardrop" shaped. Or as it merges with another water drop they initially form a "peanut" shape before ringing down to an eventual quiescent state. Much of my research since grad school has been focused on studying that transition for merging black holes. 
+
+But first things first. My explorations in these subjects began with a very practical concern: how to measure the spin of a black holes in a numerical simulation. We often say that the binary black hole problem --- the problem that we need to solve to fully understand the gravitational waves from black hole mergers --- has a seven-parameter solution space. It matters how massive one hole is, compared to the other. That's one parameter. It also matters what the *spin vectors* are of both holes. That's six more parameters (because each of these vectors lives in a three-dimensional space). So six of our seven parameters are spin. In fact, in practice the first parameter, mass, is determined from the surface areas of the holes and from the spins. So in that sense you could say that six and a half of the seven parameters are spin. In other words, it's very important that we know what we're talking about when we associate a given gravitational-wave simulation with a particular set of spins.
+
+When I first got involved in this problem, the community was focused on problems with *reflection symmetry*, meaning that there's a well-defined orbital plane about which space is symmetric. It can be proven that in such a simple case the spin axes must be *orthogonal* to this orbital plane. This simplifying condition implies that all we need to worry about is the spin *magnitude*. 
+
+The problem is, how do we define the angular momentum of vacuum spacetime? Black holes are things, but not in the sense of being made up of a bunch of pieces. In Newtonian physics we define the angular momentum of a macroscopic object as the sum of the angular momenta of the zillions of pieces that make up the object. But a black hole is an irreducible object. It's a *structure* of spacetime geometry. So to define black hole spin we need to work *nonlocally*. 
+
+We've known something about how to do this for quite a long time, at least for isolated black holes. Einstein himself, in famous [work](http://www.jstor.org/stable/1968714) with Infeld and Hoffmann, showed that a rotating body "drags" a nearby body into co-rotation with it. This "frame dragging" can be related to a concept of angular momentum associated with rotation symmetry of a background geometry when spacetime is nearly flat. Deep down, symmetries are what we use to define conserved quantities in physics (like energy, linear momentum, angular momentum, which is what we mean when we talk about spin). This concept of angular momentum can be extended (with [substantial technical challenges](http://journals.aps.org/prd/abstract/10.1103/PhysRevD.95.044002) that we won't get into here) to an idea of the *total angular momentum* of a spacetime, using symmetries that arise as a limit as one approaches infinity. 
+
+But when you have two black holes interacting with one another, it's not good enough to just be able to describe the total angular momentum of the universe. You want to know that spin of hole A, the spin of hole B, and while you're at it, the "orbital angular momentum" assiciated with their orbit around one another. 
+
+For this, you need a "quasilocal" description of angular momentum. A "global" description wouldn't work because it wouldn't separate out the separate holes. A "local" description wouldn't work because that would mean adding up the "angular momentum density" of zillions of pieces of empty space. This idea fails for a few reasons: part of the problem is that the "volume" inside a black hole is infinite, so you probably can't integrate anything over it; the other problem is that it just turns out, for very deep reasons, that there isn't any such thing as "angular momentum density" in general relativity (or at least, no such thing that we know how to work with). 
+
+Thankfully, some very smart people have been working on developing quasilocal spin measures for quite a long time. The whole story is quite involved, but the two quasilocal spin measures that have gained the most traction in the modern numerical relativity literature came from some work by [Brown and York](http://journals.aps.org/prd/abstract/10.1103/PhysRevD.47.1407), and some separate work of [Ashtekar and collaborators](http://journals.aps.org/prd/abstract/10.1103/PhysRevD.64.044016). These two formalisms have some major deep-down distinctions, but they both end up leading to a spin measure that looks like:
+\begin{align}
+S = \oint_{\cal H} \vec \omega \cdot \vec \phi \hspace{1mm} dA,
+\end{align}
+where the integral is taken over the two-dimensional horizon surface, $\vec \omega$ is a field computable from the spacetime geometry, and $\vec \phi$ is a vector field associated with a rotation symmetry of the horizon itself. 
+
+The problem is, in a generic problem, there *won't be any such symmetry.* Remember that angular momentum is ordinarily associated with a rotation symmetry of spacetime. But the black hole IS spacetime. So if the black hole is deformed in any way (such as by a tide raised by its binary companion), then there won't be any true symmetries. 
+
+This is where I first got involved in the problem. The approach that other groups were taking involved what I took to be a very reasonable approach: find an "approximate" rotation symmetry. However the precise algorithm that was normally used involved some interesting geometrical tricks that could be related to symmetries if true symmetries exist, but it's not clear what these tricks would lead to in real-world problems without exact symmetries. I decided to take the language of "approximate symmetries" seriously and set up an optimization problem, finding the vector field $\vec \phi$ that "distorts spacetime least" as you push coordinates along it. My initial ideas on this subject went into the last chapter of my [thesis](http://thesis.library.caltech.edu/2073/), and were described in more complete form in a later [paper](http://journals.aps.org/prd/abstract/10.1103/PhysRevD.78.084017). To make a long story short, the vector field $\vec \phi$ is best expressed in terms of a potential $z$, and the formula for quasilocal spin angular momentum becomes:
+\begin{align}
+S = \oint z {\rm curl} \vec \omega \cdot d\vec A,
+\end{align}
+where $z$ satisfies a generalized eigenproblem on the horizon:
+\begin{align}
+{\rm div} \left( R \grad(z) \right) = \lambda \nabla^2 z.
+\end{align}
+The eigenvalue $\lambda$ arises as a lagrange multiplier, and measures the "intrinsic non-symmetry" of the horizon. 
+
+Since its discovery, this measure of black hole spin has become the standard measure used in the [SpEC](http://www.black-holes.org/SpEC.html) code, and is therefore fundamental to all of the [SXS](www.black-holes.org) collaboration's gravitational-wave source modeling. 
