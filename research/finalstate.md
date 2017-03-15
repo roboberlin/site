@@ -10,8 +10,8 @@ nav-menu: yes
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 
-Multipole Decomposition
------------------------
+Multipole Decomposition:
+========================
 
 Stationary black holes have mass, spin, and charge. Astrophysical black holes are presumed to have negligible electric charge, so in fact mass and spin are all that matter for astrophysics. But the black holes in numerical relativity simulations are not normally stationary. Or rather, they normally begin in binary systems, where two black holes orbit around one another. As gravitational waves carry energy away from the system, and as non-Newtonian forces begin to take over, the orbit decays until the holes come together and merge into one. This final black hole starts out with a highly distorted horizon, "peanut shaped", where both of the lobes correspond to the progenitor horizons), which then settles down to a final stationary state. This final stationary state must be the so-called Kerr black hole, the stationary state with prescribed mass and spin.
 
@@ -38,7 +38,7 @@ Defining multipolar structure in this way, I was able to [show](http://journals.
 
 
 
-Algebraic Classification
-------------------------
+Algebraic Classification:
+=========================
 
 Petrov is cool, and Penrose is even better.
