@@ -43,5 +43,13 @@ Defining multipolar structure in this way, I was able to [show](http://journals.
 Algebraic Classification:
 =========================
 
-Petrov is cool, and Penrose is even better.
+The multipolar structure of the horizon tells you about the *horizon*, which is certainly a very important part of a black hole. But there's more to a black hole than just its horizon. A black hole is the tangle of spactime that's left over after matter collapses, and to really have a complete picture of the structure of a black hole, you need to characterize not just the horizon, but also the spacetime around it. 
+
+Again, to do this, you can't just hope to calculate the "gravitational field" and check whether it agrees with some standard formulas for the Kerr black hole, because the labelling of points in spacetime will generally be completely different in a numerical simulation than it is in the Kerr spacetime. You need to coax out more "basic", more "invariant" characteristics of the spacetime geometry. 
+
+The purely-gravitational structure of spacetime geometry is encoded in a four-index field called the "Conformal Curvature Tensor", or the "Weyl Tensor":
+\begin{align}
+C_{\mu \nu \rho \sigma}.
+\end{align}
+I won't give the (rather frightening) formula for this here. Suffice it to say that the Weyl tensor is a collection of quantities that vary from point to point in spacetime. It has four indices, and each one varies over the four coordinates of spacetime. So naively you'd think there would be $$4^4 = 256$$ of these components. The Weyl tensor satisfies a bunch of "index symmetries", such as $$C_{\nu \mu \rho \sigma} = - C_{\mu \nu \rho \sigma}$$, $$C_{\mu \nu \sigma \rho} = - C_{\mu \nu \rho \sigma}$$, and $$C_{\rho \sigma \mu \nu} = + C_{\mu \nu \rho \sigma}$$. These symmetries and others end up reducing the number of *independent* components of the Weyl tensor to ten. Still, these quantities are fundamentally dependent on how you label the points in spacetime, so you can't just hope to compare them with known formulas to check whether a numerical spacetime settles down to the Kerr geometry.
 
