@@ -31,7 +31,7 @@ nav-menu: "no"
 		<header class="major">
 			<h2>Research</h2>
 		</header>
-		<p>This section will eventually contain intuitive descriptions of some of my research projects. As you can tell from the Lorem Ipsum below, none of these sections have been written yet.
+		<p>For anyone who's interested, here are informal (though at times slightly technical) descriptions of some of the major research projects that I've been involved with.
 </p>
 	</div>
 </section>
@@ -86,7 +86,7 @@ nav-menu: "no"
 			</div>
 		</div>
 	</section>
-	<section>
+	<!--section>
 		<a href="generic.html" class="image">
 			<img src="assets/images/BnnWireframe.png" alt="" data-position="top center" />
 		</a>
@@ -101,7 +101,7 @@ nav-menu: "no"
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section>-->
 
 
 </section>
