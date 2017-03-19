@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Research
-description: Description of a few of my past and present research topics. Under construction.
+description: For anyone who's interested, here are informal (though at times slightly technical) descriptions of a few of my major research interests.
 image: 
 nav-menu: "no"
 ---
@@ -26,7 +26,7 @@ nav-menu: "no"
 <div id="main">
 
 <!-- One -->
-<section id="one">
+<!--section id="one">
 	<div class="inner">
 		<header class="major">
 			<h2>Research</h2>
@@ -34,7 +34,7 @@ nav-menu: "no"
 		<p>For anyone who's interested, here are informal (though at times slightly technical) descriptions of some of the major research projects that I've been involved with.
 </p>
 	</div>
-</section>
+</section>-->
 
 <!-- Two -->
 <section id="two" class="spotlights">
@@ -55,7 +55,7 @@ nav-menu: "no"
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
+		<a href="research/spin.html" class="image">
 			<img src="assets/images/BnnWireframe.png" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -71,7 +71,7 @@ nav-menu: "no"
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
+		<a href="research/finalstate.html" class="image">
 			<img src="assets/images/FprintOnCelSphere.png" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
@@ -87,7 +87,7 @@ nav-menu: "no"
 		</div>
 	</section>
 	<!--section>
-		<a href="generic.html" class="image">
+		<a href="research/visualization.html" class="image">
 			<img src="assets/images/BnnWireframe.png" alt="" data-position="top center" />
 		</a>
 		<div class="content">
