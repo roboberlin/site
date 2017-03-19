@@ -77,7 +77,7 @@ nav-menu: "no"
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Ringdown to the final state.</h3>
+					<h3>Ringdown to the final state</h3>
 				</header>
 				<p>It was long presumed that when two black holes collide, the merger remnant must settle down to a stationary black hole. Checking this required numerical relativity and some clever engineering.</p>
 				<ul class="actions">
