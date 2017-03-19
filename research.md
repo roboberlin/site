@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Research
-description: For anyone who's interested, here are informal (though at times slightly technical) descriptions of a few of my major research interests.
+description: Informal (though at times slightly technical) descriptions of a few of my major research interests.
 image: 
 nav-menu: "no"
 ---
