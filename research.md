@@ -2,7 +2,7 @@
 layout: landing
 title: Research
 description: Informal (though at times slightly technical) descriptions of a few of my major research interests.
-image: 
+image: assets/images/ConstraintDamping_str.jpg
 nav-menu: "yes"
 ---
 
