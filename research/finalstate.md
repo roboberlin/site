@@ -28,7 +28,7 @@ In a beautiful [paper](http://iopscience.iop.org/article/10.1088/0264-9381/21/11
 M_\alpha = \oint_{\cal H} y_\alpha R dA.
 \end{align}
 
-In their work, Ashtekar et al. assumed the spacetime was symmetric around some axis, a condition that turns out to provide enough structure to define the functions $$y_\alpha$$ uniquely. Unfortunately in most binary black hole problems this structure disappears. Luckily, I'd just implemented in the [SpEC](www.black-holes.org/SpEC.html) code an alternative approach that happens to reduce the the approach of Ashtekar and collaborators in cases of axisymmetry. This alternative approach involves the eigenproblem that naturally arises in my treatment of [black-hole spin](robowen.org/research/spin.html):
+In their work, Ashtekar et al. assumed the spacetime was symmetric around some axis, a condition that turns out to provide enough structure to define the functions $$y_\alpha$$ uniquely. Unfortunately in most binary black hole problems this structure disappears. Luckily, I'd just implemented in the [SpEC](www.black-holes.org/SpEC.html) code an alternative approach that happens to reduce the the approach of Ashtekar and collaborators in cases of axisymmetry. This alternative approach involves the eigenproblem that naturally arises in my treatment of [black-hole spin](spin.html):
 \begin{align}
 \nabla^4 y_\alpha + {\rm div}\left( R {\rm grad} (y_\alpha)\right) = \lambda_\alpha \nabla^2 y_\alpha,
 \end{align}
