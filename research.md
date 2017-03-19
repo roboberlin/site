@@ -3,7 +3,7 @@ layout: landing
 title: Research
 description: Informal (though at times slightly technical) descriptions of a few of my major research interests.
 image: 
-nav-menu: "no"
+nav-menu: "yes"
 ---
 
 <!-- Banner -->
