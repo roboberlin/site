@@ -86,22 +86,22 @@ nav-menu: "no"
 			</div>
 		</div>
 	</section>
-	<!--section>
+	<section>
 		<a href="research/visualization.html" class="image">
-			<img src="assets/images/BnnWireframe.png" alt="" data-position="top center" />
+			<img src="assets/images/GW150914GW.png" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>The dynamics of spacetime.</h3>
+					<h3>Visualizing the dynamics of spacetime</h3>
 				</header>
-				<p>Visualizing the stretching and squeezing of spacetime itself.</p>
+				<p>Computational relativity codes provide their results as a sea of numbers. Translating that sea of numbers into a visceral picture of spacetime dynamics requires new techniques of scientific visualization.</p>
 				<ul class="actions">
-					<li><a href="research/spin.html" class="button">Learn more</a></li>
+					<li><a href="research/visualization.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
-	</section>-->
+	</section>
 
 
 </section>
