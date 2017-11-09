@@ -9,7 +9,8 @@ nav-menu: no
 <head>
  <!--<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />-->
  <link rel="stylesheet" type="text/css" href="{{site.main}}/site/assets/css/jsxgraph.css" />
- <script type="text/javascript" src="{{site.main}}/site/assets/js/jsxgraphcore.js"></script>
+ <!--<script type="text/javascript" src="{{site.main}}/site/assets/js/jsxgraphcore.js"></script>-->
+ <script type="text/javascript" src="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js"></script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 
