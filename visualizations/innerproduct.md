@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Inner product of one-form and vector.
+title: Inner product of one-form and vector
 description: Visualizing one-forms by level sets, as in Misner, Thorne, and Wheeler's Gravitation, and inner products with vectors by the piercing of those level sets.
 image: 
 nav-menu: no
@@ -16,7 +16,7 @@ nav-menu: no
 
 
 
-<div id='jxgbox1' class='jxgbox' style="width:600px; height:600px;"></div>
+<div id='jxgbox1' class='jxgbox' style="width:60vw; height:60vw;"></div>
   <html>
 
     <script src="{{site.main}}/site/assets/js/vectorand1form.js"></script>
@@ -26,47 +26,76 @@ nav-menu: no
   </html>
 
 
-The above applet demonstrates the resonances of a swinging, ideal string, near its normal mode frequencies. The top panel shows a visualization of the string. Its left end is held fixed in the visualization, but if this were a real musical instrument, that end would likely represent a *bridge*, a nearly-stationary endpoint connecting to a *soundboard*, which pushes large quantities of air to produce more significant sound than the string produces on its own. The right end of the string (the large red dot) represents an end that is manually oscillated, like a physics professor, in lecture, swinging the end of a real rope.
 
-The bottom panel shows a plot of the rate of sound emission due to oscillations of the bridge. 
+Brief Summary
+-------------
+The blue and green arrows represent vectors, and the "product" shown at the bottom of the box is the inner product of these two vectors. However, graphically, there is no easy way to confirm that this computed product is accurate. 
 
-The **slider** on the horizontal axis of the bottom panel allows you to adjust the oscillation frequency of the "hand" (red circle) that's swinging the rope, to confirm that the resonances arise as expected.
+To aid with this, the thin black lines represent the level-surfaces used to describe a *differential form*. This form is "dual" to the green vector in the usual index-lowering sense, so the inner product of the two vectors can be seen graphically in the number of these level surfaces get *pierced* by the blue arrow. Drag either arrowhead, or the red dot which controls the level surfaces, to confirm this relationship. 
 
-The "play audio" button turns on a sinusoidal audio stream with frequency equal to that given by the slider (scaled up by a factor of 100, to be audible to the human ear), and amplitude given by the curve of the bottom panel. 
-
-Notice that if the frequency is just below a resonance, the motion of the driver is in phase with the direction of the force supplied to the the driver by the string (the string pulls upward when the driver is above zero, and downward when the driver is below zero), whereas if the frequency is just above a resonance, the driver is out of phase (negative when the force is upward, positive when the force is downward). This phase shift is a standard feature of driven oscillators near resonance. Note, also, that the resonance curve takes a sharp dip precisely *at* resonance, as that's when this phase shift needs to occur.
-
--------------------------
-
-Technical details:
-------------------
-
-The problem solved here is a damped one-dimensional wave equation:
-\begin{equation}
--\ddot \psi + \psi^{\prime \prime} + \gamma \dot \psi = 0,
-\end{equation}
-where the damping parameter $$\gamma$$ is set by hand to something small but nonzero. (Zero damping would cause the resonances to be unbounded, which wouldn't be good for the visualization.)
-
-We impose the boundary conditions:
+Discussion
+----------
+In their profoundly influential treatment of gravitation theory, Misner, Thorne, and Wheeler ([MTW](https://www.amazon.com/Gravitation-Charles-W-Misner/dp/0691177791/)) began their treatment of vectors and inner products with an idiosyncratc but very elegant pictorial description of *differential forms*. The simplest differential forms --- called one-forms --- are in a certain sense "dual" to vectors. That is: they are very similar to one another, but it is easier to combine a one-form with a vector, or a vector with a one-form, than it is to combine a one-form with a one-form or, even, a vector with a vector. The "combination" I'm talking about is the so-called "inner product." If two vectors are represented with respect to the standard coordinate basis: 
 \begin{align}
-\psi\rvert_{x = 0} = 0, \hspace{2cm} \psi\rvert_{x = L} = \alpha \cos(\omega t),
+\vec X = V^a \vec \partial_a \hspace{1cm} \vec W = W^a \vec \partial_a,
 \end{align}
-and seek a steady-state solution of the form:
-\begin{equation}
-\psi(x,t) = \psi(x) \cos(\omega t).
-\end{equation}
+then calculating their inner product (also called the *dot* product), requires the presence of a *metric structure*, $$\textbf{g}$$.
+\begin{align}
+\vec X \cdot \vec W = \mathbf{g}(\vec X, \vec W) = g_{ab} X^a W^b.
+\end{align}
 
-A relatively straightforward calculation (if you've done this sort of thing before), yields the solution:
-\begin{equation}
-\psi(x,t) = \alpha \frac{\sinh(s k_0 L) \sinh(s k_0 x) \cos(c k_0 L) \cos(c k_0 x) + \cosh(s k_0 L) \cosh(s k_0 x) \sin(c k_0 L) \sin(c k_0 x)}{\sinh^2(s k_0 L) \cos^2(c k_0 L) + \cosh^2(s k_0 L) \sin^2(c k_0 L)} \cos(\omega t),
-\end{equation}
-where $$k_0 = \omega \left[1+\gamma^2/\omega^2\right]^{1/4}$$, $$c = \cos(\arctan(\gamma/\omega)/2)$$, $$s = \sin(\arctan(\gamma/\omega)/2)$$, and $$L$$ is the length of the string.
+One-forms are objects represented with respect to what is often called dual coordinate basis, $$\mathbf{d}x^a$$, where $$x^a$$ are the coordinates and $$\mathbf{d}$$ is the "[exterior derivative](https://en.wikipedia.org/wiki/Exterior_derivative)" operator (similar to the gradient). One-forms can be represented with respect to this basis:
+\begin{align}
+\mathbf{\omega} = \omega_a \mathbf{d}x^a \hspace{1cm} \mathbf{\alpha} = \alpha_a \mathbf{d}x^a,
+\end{align}
+but again, to compute their inner product, one must refer to the metric (or rather, its inverse):
+\begin{align}
+\mathbf{\omega} \cdot \mathbf{\alpha} = g^{ab} \omega_a \alpha_b.
+\end{align}
 
-The power of sound emission is estimated from the amplitude of force on the bridge, proportional to the slope of the curve at $$x=0$$:
-\begin{equation}
-\psi^\prime\rvert_{x = 0} = \alpha k_0 \frac{s \sinh(x k_0 L) \cos(c k_0 L) + c \cosh(s k_0 L) \sin(c k_0 L)}{\sinh^2(s k_0 L) \cos^2(c k_0 L) + \cosh^2(s k_0 L) \sin^2(c k_0 L)} \cos(\omega t).
-\end{equation}
+On a typographical level (typography representative of the underlying geometrical structure of the problem), the metric is present in both of these inner product expressions for purposes of "index-gymnastics." Two vectors both have components with "upstairs" indices, so any geometrical combination must involve some other object with two "downstairs" indices. And similarly for two two one-forms. 
+
+However, the combination of a one-form and a vector requires no further index gymnastics. This implies that the inner product between these two distinct kinds of geometrical objects (conventionally denoted $$\mathbf{\omega}(\vec X)$$, or $$\langle \mathbf{\omega}, \vec X \rangle$$ in MTW) requires no additional structure:
+\begin{align}
+\mathbf{\omega}(\vec X) = \langle \mathbf{\omega}, \vec X \rangle = \omega_a X^a.
+\end{align}
+
+In graphical terms, it makes some intuitive sense that the inner product of two vectors requires an additional structure. Recall, geometrically, what the inner product of two vectors represents. The usual first formula that students see for defining dot products is this:
+\begin{align}
+\vec A \cdot \vec B = |\vec A| |\vec B| \cos\left(\theta_{AB}\right).
+\end{align}
+In other words, the dot product of $$\vec A$$ and $$\vec B$$ is the *length* of $$\vec A$$, $$|\vec A|$$, times the *projection* of $$\vec B$$ onto $$\vec A$$, ($$|\vec B| \cos\left(\theta_{AB}\right)$$), or vice versa. Graphically, calculating that projection would require the dropping of a perpendicular from one of the vectors. That is essentially what the metric structure does. 
+
+However, for any vector $$\vec W$$, we can define a corresponding one-form $$\mathbf{\omega}$$:
+\begin{align}
+\omega_a = g_{ab} W^b.
+\end{align}
+Ordinarily one would even use the same letter for the two objects (i.e.: $$W_a = g_{ab} W^b)$$, however for this discussion I'm trying to stick to MTW's pattern of using greek letters for one-forms and latin letters for vectors. A less basis-centric way of stating this duality between $$\mathbf{omega}$$ and $$\vec W$$ is:
+\begin{align}
+\mathbf{\omega}(\vec W) = \vec W \cdot \vec W = \mathbf{\omega} \cdot \mathbf{\omega}.
+\end{align}
+Note that this duality between $$\mathbf{\omega}$$ and $$\vec W$$ is a statement that again involves the metric. This is essential, because it pairs an object (the one-form $$\mathbf{\omega}$$) that can be trivially combined with a vector, with another object (the vector $$\vec W$$) that cannot.
+
+Let's return to the point that a one-form can be trivially combined with a vector, without any need for a metric. MTW describe this fact with an ingenious pictorial structure. Recall that the basis one-forms are *gradients* --- $$\mathbf{d}x^a$$. In a two-dimensional space, like the one pictured above, these gradients would naturally be $$\mathbf{d}x$$ and $$\mathbf{d}y$$. MTW argue that these gradients should naturally be pictured not by their standard vector arrows, but rather by the *level sets* of the functions $$x$$ and $$y$$. Moreover, linear combinations could be constructed as:
+\begin{align}
+2 \mathbf{d}x + 3 \mathbf{d}y = \mathbf{d}(2x+3y).
+\end{align}
+The level sets of the combination $$(2x+3y)$$ are *closer together* than those of $$x$$ or $$y$$, and have a finite slope.
+
+MTW therefore argue that when one pictures a one-form, one should think of an array of "sheets", and the inner product of that one-form with a vector simply represents **the number of those sheets that get pierced by the vector**. 
+
+In the above applet, the green arrow represents a vector $$\vec W$$ and the thin black lines represent the sheets of the corresponding one-form $$\mathbf{\omega}$$. If you drag either the green arrowhead or the red dot, then you can see the graphical relationship between these two objects in this simple local vector space (which can be understood to represent the tangent space to a 2-dimensional manifold, at some location). The blue arrow represents another vector $$\vec X$$, whose arrowhead can also be dragged about. 
+
+The "product" labeled at the bottom of the applet represents the inner product of these objects, which can be calculated as either form of:
+\begin{align}
+\vec X \cdot \vec W = \mathbf{\omega}(\vec X).
+\end{align}
+
+Note that as these objects are moved about, this inner product can be trivially calculated graphically (at least its integer part) as the number of black surfaces pierced by the blue arrow.
+
+
+
 
 ------------------------
 
-The visualizations above made use of [JSXGraph](http://jsxgraph.uni-bayreuth.de/wp/index.html), an extremely useful JavaScript library for interactive plotting, and [Gibberish](http://www.charlie-roberts.com/gibberish/), a wonderful digital signal processing engine.
+The visualization above was created with [JSXGraph](http://jsxgraph.uni-bayreuth.de/wp/index.html), a very simple javascript library for interactive plotting.
