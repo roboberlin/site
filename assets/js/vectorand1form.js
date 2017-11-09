@@ -4,7 +4,7 @@ var board = JXG.JSXGraph.initBoard('jxgbox1', {boundingbox:[-5.,5.,5.,-5.], axis
 board.renderer.container.style.backgroundColor = '#99a5b2';
 
 
-var point0 = board.create('point', [0,0], {name:'',size:.1,color:'black',fixed:true});
+var point0 = board.create('point', [0,0], {name:'',size:0,color:'black',fixed:true});
 var point1 = board.create('point', [0,2], {name:'',size:0,color:'gray'});
 var vector = board.create('arrow', [point0, point1], {shadow:false, strokeWidth:4, highlightStrokeColor:'blue'});
 
