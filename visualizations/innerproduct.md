@@ -35,7 +35,7 @@ To aid with this, the thin black lines represent the level-surfaces used to desc
 
 Discussion
 ----------
-In their profoundly influential treatment of gravitation theory, Misner, Thorne, and Wheeler ([MTW](https://www.amazon.com/Gravitation-Charles-W-Misner/dp/0691177791/)) began their treatment of vectors and inner products with an idiosyncratc but very elegant pictorial description of *differential forms*. The simplest differential forms --- called one-forms --- are in a certain sense "dual" to vectors. That is: they are very similar to one another, but it is easier to combine a one-form with a vector, or a vector with a one-form, than it is to combine a one-form with a one-form or, even, a vector with a vector. The "combination" I'm talking about is the so-called "inner product." If two vectors are represented with respect to the standard coordinate basis: 
+In their profoundly influential book on gravitation theory, Misner, Thorne, and Wheeler ([MTW](https://www.amazon.com/Gravitation-Charles-W-Misner/dp/0691177791/)) began their treatment of vectors and inner products with an idiosyncratc but very elegant pictorial description of *differential forms*. The simplest differential forms --- called one-forms --- are in a certain sense "dual" to vectors. That is: they are very similar to one another, but it is easier to combine a one-form with a vector, or a vector with a one-form, than it is to combine a one-form with a one-form or, even, a vector with a vector. The "combination" I'm talking about is the so-called "inner product." If two vectors are represented with respect to the standard coordinate basis: 
 \begin{align}
 \vec X = V^a \vec \partial_a \hspace{1cm} \vec W = W^a \vec \partial_a,
 \end{align}
