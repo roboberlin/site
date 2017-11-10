@@ -111,7 +111,7 @@ Often, abstract ideas can be more easily understood when translated into visual 
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Formants</h3>
+					<h3>MTW-style Inner Products</h3>
 				</header>
 				<p>A graphical representation of the inner product of a vector and a one-form.</p>
 				<ul class="actions">
