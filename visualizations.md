@@ -104,6 +104,21 @@ Often, abstract ideas can be more easily understood when translated into visual 
 			</div>
 		</div>
 	</section>
-
+	<section>
+		<a href="visualizations/innerproduct.html" class="image">
+		   	<img src="assets/images/piercingform.png" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Formants</h3>
+				</header>
+				<p>A graphical representation of the inner product of a vector and a one-form.</p>
+				<ul class="actions">
+					<li><a href="visualizations/innerproduct.html" class="button">visit</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 
 
