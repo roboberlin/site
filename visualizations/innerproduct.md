@@ -44,11 +44,11 @@ then calculating their inner product (also called the *dot* product), requires t
 \vec X \cdot \vec W = \mathbf{g}(\vec X, \vec W) = g_{ab} X^a W^b.
 \end{align}
 
-One-forms are objects represented with respect to what is often called dual coordinate basis, $$\mathbf{d}x^a$$, where $$x^a$$ are the coordinates and $$\mathbf{d}$$ is the "[exterior derivative](https://en.wikipedia.org/wiki/Exterior_derivative)" operator (similar to the gradient). One-forms can be represented with respect to this basis:
+One-forms are objects represented with respect to what is often called the dual coordinate basis, $$\mathbf{d}x^a$$, where $$x^a$$ are the coordinates and $$\mathbf{d}$$ is the "[exterior derivative](https://en.wikipedia.org/wiki/Exterior_derivative)" operator (similar to the gradient). A general one-form at a point can be written as:
 \begin{align}
-\mathbf{\omega} = \omega_a \mathbf{d}x^a \hspace{1cm} \mathbf{\alpha} = \alpha_a \mathbf{d}x^a,
+\mathbf{\omega} = \omega_a \mathbf{d}x^a \hspace{1cm} \mathbf{\alpha} = \alpha_a \mathbf{d}x^a.
 \end{align}
-but again, to compute their inner product, one must refer to the metric (or rather, its inverse):
+But again, to compute their inner product, one must refer to the metric (or rather, its inverse):
 \begin{align}
 \mathbf{\omega} \cdot \mathbf{\alpha} = g^{ab} \omega_a \alpha_b.
 \end{align}
@@ -64,19 +64,19 @@ In graphical terms, it makes some intuitive sense that the inner product of two 
 \begin{align}
 \vec A \cdot \vec B = |\vec A| |\vec B| \cos\left(\theta_{AB}\right).
 \end{align}
-In other words, the dot product of $$\vec A$$ and $$\vec B$$ is the *length* of $$\vec A$$, $$|\vec A|$$, times the *projection* of $$\vec B$$ onto $$\vec A$$, ($$|\vec B| \cos\left(\theta_{AB}\right)$$), or vice versa. Graphically, calculating that projection would require the dropping of a perpendicular from one of the vectors. That is essentially what the metric structure does. 
+In other words, the dot product of $$\vec A$$ and $$\vec B$$ is the *length* of $$\vec A$$, $$|\vec A|$$, times the *projection* of $$\vec B$$ onto $$\vec A$$, ($$|\vec B| \cos\left(\theta_{AB}\right)$$), or vice versa. Graphically, calculating that projection would require tracing a perpendicular from one of the vectors to the other. That is essentially what the metric structure does. 
 
 However, for any vector $$\vec W$$, we can define a corresponding one-form $$\mathbf{\omega}$$:
 \begin{align}
 \omega_a = g_{ab} W^b.
 \end{align}
-Ordinarily one would even use the same letter for the two objects (i.e.: $$W_a = g_{ab} W^b)$$, however for this discussion I'm trying to stick to MTW's pattern of using greek letters for one-forms and latin letters for vectors. A less basis-centric way of stating this duality between $$\mathbf{omega}$$ and $$\vec W$$ is:
+Ordinarily one would even use the same letter for the two objects (i.e.: $$W_a = g_{ab} W^b)$$, however for this discussion I'm trying to stick to MTW's pattern of using greek letters for one-forms and latin letters for vectors. A less basis-centric way of stating this duality between $$\mathbf{\omega}$$ and $$\vec W$$ is:
 \begin{align}
 \mathbf{\omega}(\vec W) = \vec W \cdot \vec W = \mathbf{\omega} \cdot \mathbf{\omega}.
 \end{align}
-Note that this duality between $$\mathbf{\omega}$$ and $$\vec W$$ is a statement that again involves the metric. This is essential, because it pairs an object (the one-form $$\mathbf{\omega}$$) that can be trivially combined with a vector, with another object (the vector $$\vec W$$) that cannot.
+Note that this duality between $$\mathbf{\omega}$$ and $$\vec W$$ is a statement that again involves the metric. This is essential, because the duality pairs an object (the one-form $$\mathbf{\omega}$$) that can be trivially combined with a vector, with another object (the vector $$\vec W$$) that cannot.
 
-Let's return to the point that a one-form can be trivially combined with a vector, without any need for a metric. MTW describe this fact with an ingenious pictorial structure. Recall that the basis one-forms are *gradients* --- $$\mathbf{d}x^a$$. In a two-dimensional space, like the one pictured above, these gradients would naturally be $$\mathbf{d}x$$ and $$\mathbf{d}y$$. MTW argue that these gradients should naturally be pictured not by their standard vector arrows, but rather by the *level sets* of the functions $$x$$ and $$y$$. Moreover, linear combinations could be constructed as:
+Let's return to the fact that a one-form can be trivially combined with a vector, without any need for a metric. MTW describe this fact with an ingenious pictorial structure. Recall that the basis one-forms are *gradients* --- $$\mathbf{d}x^a$$. In a two-dimensional space, like the one pictured above, these gradients would naturally be $$\mathbf{d}x$$ and $$\mathbf{d}y$$. MTW argue that these gradients should be pictured not by their standard vector arrows, but rather by the *level sets* of the functions $$x$$ and $$y$$. Moreover, linear combinations could be constructed as:
 \begin{align}
 2 \mathbf{d}x + 3 \mathbf{d}y = \mathbf{d}(2x+3y).
 \end{align}
@@ -84,7 +84,7 @@ The level sets of the combination $$(2x+3y)$$ are *closer together* than those o
 
 MTW therefore argue that when one pictures a one-form, one should think of an array of "sheets", and the inner product of that one-form with a vector simply represents **the number of those sheets that get pierced by the vector**. 
 
-In the above applet, the green arrow represents a vector $$\vec W$$ and the thin black lines represent the sheets of the corresponding one-form $$\mathbf{\omega}$$. If you drag either the green arrowhead or the red dot, then you can see the graphical relationship between these two objects in this simple local vector space (which can be understood to represent the tangent space to a 2-dimensional manifold, at some location). The blue arrow represents another vector $$\vec X$$, whose arrowhead can also be dragged about. 
+In the above applet, the green arrow represents a vector $$\vec W$$ and the thin black lines represent the sheets of the corresponding one-form $$\mathbf{\omega}$$. If you drag either the green arrowhead or the red dot, then you can see the graphical relationship between these two objects in this simple vector space. The blue arrow represents another vector $$\vec X$$, whose arrowhead can also be dragged about. 
 
 The "product" labeled at the bottom of the applet represents the inner product of these objects, which can be calculated as either form of:
 \begin{align}
