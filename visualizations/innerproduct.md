@@ -31,7 +31,7 @@ Brief Summary
 -------------
 The blue and green arrows represent vectors, and the "product" shown at the bottom of the box is the inner product of these two vectors. However, graphically, there is no easy way to confirm that this computed product is accurate. 
 
-To aid with this, the thin black lines represent the level-surfaces used to describe a *differential form*. This form is "dual" to the green vector in the usual index-lowering sense, so the inner product of the two vectors can be seen graphically in the number of these level surfaces get *pierced* by the blue arrow. Drag either arrowhead, or the red dot which controls the level surfaces, to confirm this relationship. 
+To aid with this, the thin black lines represent the level-surfaces used to describe a *differential form*. This form is "dual" to the green vector in the usual index-lowering sense, so the inner product of the two vectors can be seen graphically in the number of these level surfaces that get *pierced* by the blue arrow. Drag either arrowhead, or the red dot which controls the level surfaces, to confirm this relationship. 
 
 Discussion
 ----------
