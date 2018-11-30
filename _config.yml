@@ -11,7 +11,7 @@ title-normal:
 email: rowen@oberlin.edu
 description: black hole research and scientific visualizations
 baseurl: "/site" # the subpath of your site, e.g. /blog
-url: "https://stravinskian.github.io" # the base hostname & protocol for your site
+url: "https://roboberlin.github.io" # the base hostname & protocol for your site
 author: 
 street_address: 110 N. Professor St
 city: Oberlin
@@ -34,7 +34,7 @@ tiles-count: 20
 # Social settings
 500px_url: 
 facebook_url: 
-github_url: https://github.com/stravinskian
+github_url: https://github.com/roboberlin
 gitlab_url: 
 googleplus_url: 
 instagram_url: 
